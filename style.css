@@ -1041,9 +1041,6 @@
     position: relative;
     top: 15%;
     left: 20%;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
 }
 
 
@@ -1110,9 +1107,7 @@
 }
 
 
-
-
-@media only screen and (max-width: 1232px) {
+@media only screen and (max-width: 1351px) {
     body {
 
         .left-promotion {
@@ -1124,7 +1119,7 @@
         }
 
         .right img:nth-child(1) {
-            left: -10%;
+            left: 0%;
         }
 
         .right img:nth-child(2) {
@@ -1176,5 +1171,1097 @@
             position: absolute;
             z-index: 1;
         }
+
+        /* order a free departure masters in 30 minutes */
+        .bg-promotion {
+            margin-left: -10%;
+        }
+
+
+        /* map */
+        .loc-con-div button {
+            margin-top: 10%;
+            margin-left: 15%;
+        }
+    }
+}
+
+@media only screen and (max-width: 1232px) {
+    body {
+
+        .left-promotion {
+            margin-top: 1%;
+        }
+
+        .left {
+            font-size: small;
+            margin-left: 10%;
+        }
+
+        .navbar {
+            padding: 2% 10% 2% 10%;
+        }
+
+        .right img:nth-child(1) {
+            left: 0%;
+        }
+
+        .right img:nth-child(2) {
+            left: 5%;
+        }
+
+        .right img:nth-child(3) {
+            left: 20%;
+        }
+
+        .ser-con-inside-box img {
+            height: 15%;
+        }
+
+
+
+        /* orient service offers the best price */
+        .first-rev-row {
+            font-size: small;
+        }
+
+        .second-rev-row {
+            font-size: small;
+        }
+
+        .box-plumber-left {
+            font-size: x-small;
+        }
+
+        .washing-left {
+            font-size: x-small;
+        }
+
+        .box8-left h3,
+        .box8-left p {
+            font-size: x-small;
+        }
+
+        .washing-right img {
+            height: 70%;
+        }
+
+        .box8-right img {
+            height: 60%;
+        }
+
+
+        .ser-con-inside-small-box {
+            position: absolute;
+            z-index: 1;
+        }
+
+        /* order a free departure masters in 30 minutes */
+        .bg-promotion {
+            margin-left: -10%;
+        }
+
+        .promotion-content {
+            font-size: small;
+        }
+
+        .left-promotion h1 {
+            margin-top: 10%;
+        }
+
+
+
+
+
+        /* map */
+        .loc-con-div button {
+            margin-top: 10%;
+            margin-left: 15%;
+        }
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1100px) {
+    body {
+
+        /* Main content */
+        .main-content {
+            height: 71vh;
+        }
+
+        /* Repair of any orient household appliance */
+        .product-content {
+            height: 100vh;
+        }
+
+        .pro-con-down {
+            font-size: x-small;
+        }
+
+        /* Scheme of work */
+        .ser-con-box {
+            height: 90%;
+        }
+
+        .service-content-main {
+            font-size: small;
+        }
+
+        /* Reviews */
+        .team-div {
+            top: 30%;
+            font-size: small;
+        }
+
+        .div2-1 {
+            height: 60%;
+        }
+
+        .div2-2 {
+            height: 60%;
+        }
+
+        .div2-3 {
+            height: 60%;
+        }
+
+
+        .left-promotion {
+            margin-top: 1%;
+        }
+
+        .navbar {
+            padding: 2% 10% 2% 10%;
+        }
+
+        .right img:nth-child(1) {
+            left: 0%;
+        }
+
+        .right img:nth-child(2) {
+            left: 5%;
+        }
+
+        .right img:nth-child(3) {
+            left: 20%;
+        }
+
+        .ser-con-inside-box img {
+            height: 15%;
+        }
+
+
+
+        /* orient service offers the best price */
+        .first-rev-row {
+            font-size: small;
+        }
+
+        .second-rev-row {
+            font-size: small;
+        }
+
+        .box-plumber-left {
+            font-size: x-small;
+        }
+
+        .washing-left {
+            font-size: x-small;
+        }
+
+        .box8-left h3,
+        .box8-left p {
+            font-size: x-small;
+        }
+
+        .washing-right img {
+            height: 70%;
+        }
+
+        .box8-right img {
+            height: 60%;
+        }
+
+
+        .ser-con-inside-small-box {
+            position: absolute;
+            z-index: 1;
+        }
+
+        /* order a free departure masters in 30 minutes */
+        .bg-promotion {
+            margin-left: -10%;
+        }
+
+
+        /* map */
+        .loc-con-div button {
+            margin-top: 10%;
+            margin-left: 15%;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 10000px) {
+    body {
+
+        /* Main content */
+        .main-content {
+            height: 71vh;
+        }
+
+        /* Repair of any orient household appliance */
+        .product-content {
+            height: 100vh;
+        }
+
+        .pro-con-down {
+            font-size: x-small;
+        }
+
+        /* Scheme of work */
+        .ser-con-box {
+            height: 90%;
+        }
+
+        .service-content-main {
+            font-size: small;
+        }
+
+        /* Reviews */
+        .team-div {
+            top: 30%;
+            font-size: small;
+        }
+
+        .div2-1 {
+            height: 60%;
+        }
+
+        .div2-2 {
+            height: 60%;
+        }
+
+        .div2-3 {
+            height: 60%;
+        }
+
+
+        .left-promotion {
+            margin-top: 1%;
+        }
+
+        .navbar {
+            padding: 2% 10% 2% 10%;
+        }
+
+        .right img:nth-child(1) {
+            left: 0%;
+        }
+
+        .right img:nth-child(2) {
+            left: 5%;
+        }
+
+        .right img:nth-child(3) {
+            left: 20%;
+        }
+
+        .ser-con-inside-box img {
+            height: 15%;
+        }
+
+
+
+        /* orient service offers the best price */
+        .first-rev-row {
+            font-size: small;
+        }
+
+        .second-rev-row {
+            font-size: small;
+        }
+
+        .box-plumber-left {
+            font-size: x-small;
+        }
+
+        .washing-left {
+            font-size: x-small;
+        }
+
+        .box8-left h3,
+        .box8-left p {
+            font-size: x-small;
+        }
+
+        .washing-right img {
+            height: 70%;
+        }
+
+        .box8-right img {
+            height: 60%;
+        }
+
+
+        .ser-con-inside-small-box {
+            position: absolute;
+            z-index: 1;
+        }
+
+        /* order a free departure masters in 30 minutes */
+        .bg-promotion {
+            margin-left: -10%;
+        }
+
+
+        /* map */
+        .loc-con-div button {
+            margin-top: 10%;
+            margin-left: 15%;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px)  {
+    body {
+
+        /* Navbar */
+
+
+
+
+        /* Main Content */
+
+
+
+        /*  Repair of any orient household appliances  */
+
+
+
+        /* Order a free departure masters in 30 minutes */
+        .bg-promotion {
+            font-size: 10px;
+        }
+
+
+        /* Orient service offers the best prices  */
+        .box {
+            font-size: 2vh;
+        }
+
+
+        /* Scheme of work  */
+
+
+
+        /* Get 15% discount right now  */
+
+
+        /* Reviews */
+
+
+        /* Answers and questions */
+
+
+        /* Map */
+
+
+        /* Footer */
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ipad pro */
+@media screen and (max-width: 1024px) and (min-height: 1366px) {
+    body {
+
+        /* Navbar */
+        .button {
+            width: 10vh;
+        }
+
+        .logo {
+            width: 45px;
+        }
+
+        .container {
+            font-size: small;
+        }
+
+
+        /* Main Content */
+        .main-content {
+            height: 30vh;
+        }
+
+        .left button {
+            height: 2vh;
+            width: 8vh;
+            font-size: small;
+        }
+
+        .down123 p {
+            margin-right: 1vh;
+            font-size: small;
+        }
+
+        .down123 {
+            margin-top: 3vh;
+        }
+
+        .down123 h1 {
+            font-size: 2vh;
+        }
+
+        /*  Repair of any orient household appliances  */
+        .product-content {
+            height: 50vh;
+        }
+
+        .head-pro-con {
+            margin-top: 5vh;
+            margin-bottom: -5vh;
+            font-size: x-large;
+        }
+
+        .item-div {
+            height: 30vh;
+        }
+
+        .pro-con-down {
+            margin-top: 20%;
+        }
+
+
+        /* Order a free departure masters in 30 minutes */
+        .promotion-content {
+            height: 30vh;
+        }
+
+        .bg-promotion {
+            font-size: 10px;
+            height: 60%;
+            margin-left: 2%;
+
+        }
+
+        .right-promotion img:nth-child(1) {
+            height: 80%;
+            bottom: 0%;
+            position: absolute;
+            z-index: 1;
+            left: -20%;
+        }
+
+        .left-promotion button {
+            margin-top: 4%;
+            width: 10vh;
+        }
+
+        .right-promotion img:nth-child(2) {
+            height: 80%;
+            left: 10%;
+            bottom: -5%;
+            position: absolute;
+        }
+
+        .right-promotion img:nth-child(3) {
+            height: 85%;
+            left: 50%;
+            bottom: -3%;
+            position: absolute;
+        }
+
+        .left-promotion h1,
+        .left-promotion p {
+            font-size: small;
+        }
+
+
+
+        /* Orient service offers the best prices  */
+        .review-content {
+            height: 40vh;
+        }
+
+        .box {
+            font-size: 15px;
+            height: 85%;
+        }
+
+        .rev-main-heading {
+            padding-top: 5%;
+        }
+
+        .box-plumber {
+            height: 85%;
+        }
+
+        .washing-div {
+            height: 85%;
+        }
+
+        .box8 {
+            height: 85%;
+        }
+
+        .first-rev-row {
+            margin-top: 5%;
+        }
+
+        .second-rev-row {
+            margin-top: -2%;
+        }
+
+
+
+
+        /* Scheme of work  */
+        .services-content {
+            height: 50vh;
+        }
+
+
+
+        /* Get 15% discount right now  */
+        .offer-content {
+            height: 20vh;
+        }
+
+        .offer-div2-right img:nth-child(1) {
+            height: 110%;
+            position: absolute;
+            left: 0%;
+            bottom: 0;
+            z-index: 3;
+        }
+
+        .offer-div2-right img:nth-child(2) {
+            height: 90%;
+            position: absolute;
+            left: 40%;
+            z-index: 2;
+            bottom: -4%;
+        }
+
+        .offer-div2-right img:nth-child(3) {
+            height: 110%;
+            position: absolute;
+            left: 60%;
+            z-index: 1;
+            bottom: 0%;
+        }
+
+        .offer-div2-left {
+            margin-left: -5%;
+        }
+
+
+        /* Reviews */
+        .team-content {
+            height: 30vh;
+        }
+
+        .t-div2 {
+            font-size: 12px;
+        }
+
+
+        /* Answers and questions */
+        .form-content {
+            height: 28vh;
+        }
+
+
+        /* Map */
+        .location-content {
+            height: 30vh;
+        }
+
+        /* Footer */
+        .footer {
+            height: 10vh;
+            font-size: x-small;
+        }
+
+        .footer img {
+            height: 3vh;
+        }
+
+    }
+}
+
+
+
+
+/* iphone 14 */
+@media screen and (max-width: 430px) {
+    body {
+
+        /* Navbar */
+        .button {
+            width: 5vh;
+            font: 1%;
+            margin-left: 70%;
+        }
+
+        .button p {
+            font-size: 6px;
+        }
+
+        .logo {
+            margin-left: -30%;
+            margin-top: 10%;
+            width: 30px;
+        }
+
+        .container {
+            font-size: 7px;
+        }
+
+        .menu {
+            margin-left: -5%;
+        }
+
+
+        /* Main Content */
+        .main-content {
+            height: 70vh;
+            flex-direction: column;
+
+        }
+
+        .left {
+            width: 100%;
+        }
+
+        .left button {
+            height: 2vh;
+            width: 5vh;
+            font-size: small;
+        }
+
+        .left h1 {
+            margin-left: -10%;
+            width: 40vh;
+            font-size: 50px;
+            margin-bottom: 10%;
+        }
+
+        .left button {
+            margin-top: 10%;
+            height: 5vh;
+            width: 10vh;
+            margin-left: -10%;
+            margin-bottom: 10%;
+        }
+
+        #element {
+            margin-left: -10%;
+            margin-top: 100vh;
+        }
+
+        #element1 {
+            margin-left: -10%;
+            margin-top: 100vh;
+        }
+
+
+        .down123 p {
+            margin-right: 7vh;
+            font-size: small;
+        }
+
+        .down123 {
+            margin-top: 4vh;
+        }
+
+        .down123 h1 {
+            font-size: 2vh;
+        }
+
+        .right {
+            background-color: #3ca7db;
+            border-top-left-radius: 500px;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .right img:nth-child(1) {
+            width: 65%;
+            z-index: 2;
+            left: 10%;
+            bottom: 100%;
+        }
+
+        .right img:nth-child(2) {
+            width: 50%;
+            z-index: 1;
+            left: 130%;
+            bottom: 11%;
+        }
+
+        .right img:nth-child(3) {
+            width: 85%;
+            z-index: 3;
+            left: 55%;
+            bottom: 8%;
+        }
+
+
+        /*  Repair of any orient household appliances  */
+        .product-content {
+            height: 50vh;
+        }
+
+        .head-pro-con {
+            margin-top: 5vh;
+            margin-bottom: -5vh;
+            font-size: small;
+        }
+
+        .item-div {
+            height: 30vh;
+        }
+
+        .pro-con-down {
+            margin-top: 30%;
+            font-size: 7px;
+            margin-left: 5%;
+            margin-top: 33%;
+            width: 40vh;
+        }
+
+        .pro-con-down .button {
+            width: 10vh;
+            font-size: 10px;
+            margin-left: 10%;
+        }
+
+        .second {
+            font-size: xx-small;
+        }
+
+        .first img {
+            margin-top: 400%;
+        }
+
+        .third img {
+            margin-top: 400%;
+        }
+
+
+        /* Order a free departure masters in 30 minutes */
+        .promotion-content {
+            background-color: #9f9f9f;
+            height: 80vh;
+            margin-bottom: 10%;
+        }
+
+        .bg-promotion {
+            font-size: 10px;
+            height: 100%;
+            width: 100%;
+            flex-direction: column;
+            margin-left: 0%;
+
+        }
+
+        .left-promotion {
+            height: 50%;
+        }
+
+        .right-promotion {
+            margin-left: 10%;
+            width: 100%;
+            height: 50%;
+            /* background-color: #912b22; */
+            margin-left: 0%;
+        }
+
+        .left-promotion button {
+            margin-top: 30%;
+            width: 20vh;
+            margin-left: 45%;
+        }
+
+        .right-promotion img:nth-child(1) {
+            height: 60%;
+            bottom: 0%;
+            position: absolute;
+            z-index: 1;
+            left: 6%;
+        }
+
+
+
+        .right-promotion img:nth-child(2) {
+            height: 60%;
+            left: 25%;
+            bottom: -3%;
+            position: absolute;
+        }
+
+        .right-promotion img:nth-child(3) {
+            height: 60%;
+            left: 60%;
+            bottom: -3%;
+            position: absolute;
+        }
+
+        .left-promotion h1,
+        .left-promotion p {
+            font-size: 3vh;
+            width: 40vh;
+        }
+
+
+
+        /* Orient service offers the best prices  */
+        .review-content {
+            height: 120vh;
+        }
+
+        .rev-main-heading {
+            padding-top: 10%;
+            margin-bottom: 10%;
+        }
+
+        .rev-content {
+            display: flex;
+        }
+
+        .first-rev-row {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin-left: -20%;
+            height: 120%;
+        }
+
+        .second-rev-row {
+            width: 100%;
+            flex-direction: column;
+            margin-right: -20%;
+            height: 120%;
+        }
+
+        .box {
+            padding-right: 10px;
+            width: 90%;
+            height: 100%;
+            margin-bottom: 10%;
+            padding-bottom: 5%;
+        }
+
+        .box-plumber {
+            width: 90%;
+            height: 100%;
+            margin-bottom: 10%;
+            padding-bottom: 5%;
+        }
+
+        .washing-div {
+            width: 90%;
+            height: 125%;
+            margin-bottom: 10%;
+            padding-bottom: 5%;
+        }
+
+        .box8 {
+            width: 90%;
+            height: 100%;
+            margin-bottom: 10%;
+            padding-bottom: 5%;
+        }
+
+        .box8-right img {
+            height: 10vh;
+        }
+
+
+
+
+        /* Scheme of work  */
+        .services-content {
+            height: 60vh;
+        }
+
+        .service-content-main {
+            font-size: xx-small;
+            margin-left: 2%;
+            width: 98%;
+        }
+
+
+
+
+
+        /* Get 15% discount right now  */
+        .offer-content {
+            height: 20vh;
+            font-size: xx-small;
+        }
+
+        .offer-div2 button {
+            width: 10vh;
+        }
+
+        .offer-div2-right img:nth-child(1) {
+            height: 110%;
+            position: absolute;
+            left: -20%;
+            bottom: 0;
+            z-index: 3;
+        }
+
+        .offer-div2-right img:nth-child(2) {
+            height: 90%;
+            position: absolute;
+            left: 45%;
+            z-index: 2;
+            bottom: -4%;
+        }
+
+        .offer-div2-right img:nth-child(3) {
+            height: 110%;
+            position: absolute;
+            left: 86%;
+            z-index: 1;
+            bottom: 0%;
+        }
+
+        .offer-div2-left {
+            margin-left: -15%;
+        }
+
+
+
+
+
+        /* Reviews */
+        .team-content {
+            height: 30vh;
+        }
+
+        .t-div2 {
+            width: 98%;
+            font-size: 7px;
+        }
+
+        .t-div1 {
+            width: 2%;
+        }
+
+        .t-div3 {
+            width: 2%;
+        }
+
+
+        .div2-1 img {
+            position: absolute;
+            top: -25px;
+            left: 18%;
+            transform: translateX(-50%);
+            width: 12%;
+            height: 20%;
+            border-radius: 50%;
+        }
+
+        .div2-2 img {
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        .div2-3 img {
+            position: absolute;
+            top: -25px;
+            left: 82%;
+            transform: translateX(-50%);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+
+
+
+        /* Answers and questions */
+        .form-content {
+            height: 28vh;
+        }
+
+
+        /* Map */
+        .location-content {
+            height: 50vh;
+        }
+
+        .loc-con-div{
+            width: 20vh;
+        }
+        .loc-con-div .button{
+            width: 12vh;
+            margin-left: 30px;
+        }
+
+
+        /* Footer */
+        .footer {
+            height: 10vh;
+            font-size: 8px;
+        }
+
+        .footer img {
+            height: 3vh;
+            padding-right: 10px;
+        }
+
+
+
     }
 }
