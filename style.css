@@ -1,0 +1,1180 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+/*Navbar */
+.navbar {
+    background-color: #ffffff;
+    padding: 2% 20% 2% 20%;
+}
+
+
+
+.container {
+    background-color: rgb(255, 255, 255);
+}
+
+.logo {
+    width: 52px;
+}
+
+.header-small-img {
+    width: 16px;
+    margin-right: 10px;
+}
+
+.button {
+    width: 25vh;
+    height: 2rem;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #3ca7db;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+/* Main Content CSS */
+.main-content {
+    background-color: rgb(240, 240, 240);
+    height: 81vh;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content .left,
+.right {
+    width: 50%;
+}
+
+.right {
+    background-color: #3ca7db;
+    border-top-left-radius: 500px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right img {
+    position: absolute;
+}
+
+.right img:nth-child(1) {
+    width: 25%;
+    z-index: 2;
+    left: 0.5%;
+    bottom: 4%;
+}
+
+.right img:nth-child(2) {
+    width: 26%;
+    z-index: 1;
+    left: 10%;
+    bottom: 11%;
+}
+
+.right img:nth-child(3) {
+    width: 65%;
+    z-index: 3;
+    left: 25%;
+    bottom: 8%;
+}
+
+
+.left {
+    margin-left: 15%;
+    margin-top: 6%;
+}
+
+.left button {
+    height: 10vh;
+    width: 40vh;
+    border-radius: 50px;
+    margin-top: 6%;
+    margin-bottom: 4%;
+    background-color: #3ca7db;
+    border-style: none;
+    color: #ffffff;
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+.left h1 {
+    margin-bottom: 2%;
+}
+
+.orient {
+    color: #3ca7db;
+}
+
+.down123 {
+    display: flex;
+    margin-top: 6vh;
+}
+
+.down123 p {
+    margin-right: 10vh;
+    margin-left: 2vh;
+}
+
+.down123 h1 {
+    color: #3ca7db;
+    font-size: 3rem;
+    border-left: 0.5px solid black;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+/* Repair of any orient household appliances */
+.product-content {
+    background-color: rgb(255, 255, 255);
+    height: 120vh;
+    text-align: center;
+}
+
+.head-pro-con {
+    margin-top: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-div {
+    height: 100%;
+    width: auto;
+    margin: auto;
+    margin-top: 10vh;
+    box-shadow: 0px 0px 10px rgba(129, 129, 129, 0.5);
+    position: relative;
+}
+
+.pro-con-down {
+    width: 60%;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20%;
+}
+
+.left-div {
+    box-shadow: 0px 0px 10px rgba(179, 179, 179, 0.5);
+    height: 80%;
+    width: 30%;
+    margin-left: 4%;
+    top: 10%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-div:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.left-div img {
+    height: 60%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.mid-div-1 {
+    box-shadow: 0px 0px 10px rgba(179, 179, 179, 0.5);
+    height: 38%;
+    width: 30%;
+    margin-left: 35%;
+    top: 10%;
+    position: absolute;
+}
+
+.mid-div-1:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.mid-div-1 img {
+    height: 60%;
+    margin-top: 8%;
+    margin-bottom: 4%;
+}
+
+.mid-div-2 {
+    box-shadow: 0px 0px 10px rgba(179, 179, 179, 0.5);
+    height: 38%;
+    width: 30%;
+    margin-left: 35%;
+    top: 52%;
+    position: absolute;
+}
+
+.mid-div-2:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.mid-div-2 img {
+    height: 60%;
+    margin-top: 8%;
+    margin-bottom: 4%;
+}
+
+.right-div-1 {
+    box-shadow: 0px 0px 10px rgba(179, 179, 179, 0.5);
+    height: 38%;
+    width: 30%;
+    margin-left: 66%;
+    top: 52%;
+    position: absolute;
+
+}
+
+.right-div-1:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.right-div-1 img {
+    height: 60%;
+    margin-top: 8%;
+    margin-bottom: 4%;
+}
+
+.right-div-2 {
+    box-shadow: 0px 0px 10px rgba(179, 179, 179, 0.5);
+    height: 38%;
+    width: 30%;
+    margin-left: 66%;
+    top: 10%;
+    position: absolute;
+
+}
+
+.right-div-2:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.right-div-2 img {
+    height: 60%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.back {
+    height: 60%;
+    width: 10%;
+    background-color: aquamarine;
+}
+
+.pro-con {
+    height: 60%;
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.first {
+    height: 80%;
+    width: 10%;
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second {
+    height: 100%;
+    width: 80%;
+}
+
+.third {
+    height: 80%;
+    width: 10%;
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first img {
+    height: 8%;
+}
+
+.third img {
+    height: 7%;
+}
+
+.third:hover img {
+    content: url('images/next\ hover.png');
+}
+
+.first:hover img {
+    content: url('images/back\ hover.png');
+}
+
+
+
+
+
+
+/* Order a free departure master in 30 minutes */
+.promotion-content {
+    background-color: rgb(242, 242, 242);
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-promotion {
+    background-color: #3ca7db;
+    height: 60%;
+    width: 60%;
+    display: flex;
+}
+
+.left-promotion {
+    width: 50%;
+    padding-right: 10%;
+    height: 70%;
+    margin-top: 5%;
+    margin-left: 5%;
+    color: #ffffff;
+}
+
+.left-promotion button {
+    width: 25vh;
+    height: 2rem;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #db493c;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.left-promotion p {
+    font-size: 2vh;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.right-promotion {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+.right-promotion img:nth-child(1) {
+    height: 110%;
+    bottom: 0%;
+    position: absolute;
+    z-index: 1;
+    left: -10%;
+}
+
+.right-promotion img:nth-child(2) {
+    height: 110%;
+    left: 15%;
+    bottom: -5%;
+    position: absolute;
+}
+
+.right-promotion img:nth-child(3) {
+    height: 125%;
+    left: 60%;
+    bottom: -6%;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+/* Orient service offers the best price */
+.review-content {
+    background-color: #3ca7db;
+    height: 70vh;
+    text-align: center;
+}
+
+.rev-main-heading {
+    color: #ffffff;
+}
+
+.orient1 {
+    color: #963027;
+    font-weight: bolder;
+}
+
+.rev-content {
+    height: 70%;
+    width: 70%;
+    margin: auto;
+    margin-top: 2%;
+    position: relative;
+}
+
+.review-content h1 {
+    padding-top: 2%;
+}
+
+.first-rev-row {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    background-color: #ffffff;
+    height: 90%;
+    width: 24%;
+    text-align: left;
+}
+
+.box h3,
+.box p {
+    margin-top: 8%;
+    margin-left: 8%;
+}
+
+.second-rev-row {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-plumber {
+    background-color: #912b22;
+    height: 90%;
+    width: 24%;
+    display: flex;
+    position: relative;
+}
+
+.box-plumber-left {
+    width: 50%;
+    color: #ffffff;
+    font-size: small;
+    text-align: left;
+}
+
+.box-plumber-right {
+    width: 50%;
+}
+
+.box-plumber-right img {
+    position: absolute;
+    width: 55%;
+    left: 50%;
+    bottom: 0%;
+}
+
+.box-plumber-left h3,
+.box-plumber-left p {
+    margin-top: 10%;
+    margin-left: 8%;
+}
+
+.washing-div {
+    background-color: #ffffff;
+    height: 90%;
+    width: 24%;
+    text-align: left;
+    display: flex;
+    position: relative;
+}
+
+.bg-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.black-img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.washing-left {
+    width: 50%;
+    height: 100%;
+    z-index: 2;
+    color: #ffffff;
+}
+
+.washing-right {
+    width: 50%;
+    height: 50%;
+}
+
+.washing-left h3,
+.washing-left p {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.washing-right {
+    z-index: 1;
+}
+
+.washing-right img {
+    height: 90%;
+    position: absolute;
+    bottom: -3%;
+    right: -2%;
+}
+
+.box8 {
+    background-color: #431228;
+    height: 90%;
+    width: 24%;
+    text-align: left;
+    display: flex;
+    position: relative;
+}
+
+.box8-right {
+    height: 100%;
+    width: 50%;
+}
+
+.box8-left {
+    height: 100%;
+    width: 50%;
+    color: #ffffff;
+}
+
+.box8-left h3,
+.box8-left p {
+    margin-top: 6%;
+    margin-left: 7%;
+    font-size: medium;
+}
+
+.box8-right img {
+    height: 80%;
+    bottom: 6%;
+    position: absolute;
+}
+
+
+
+
+/* Scheme of work */
+.services-content {
+    background-color: #ffffff;
+    height: 120vh;
+    text-align: center;
+}
+
+.services-content h1 {
+    margin-top: 5%;
+}
+
+.service-content-main {
+    height: 80%;
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.service-content-top {
+    height: 49%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.ser-con-box {
+    height: 100%;
+    width: 33.33%;
+    position: relative;
+}
+
+.service-content-bottom {
+    height: 49%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ser-con-inside-box {
+    height: 80%;
+    width: 90%;
+    border: 2px solid #3ca7db;
+    bottom: 0;
+    left: 2%;
+    position: absolute;
+}
+
+.ser-con-inside-small-box {
+    background-color: #3ca7db;
+    height: 30%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ser-con-inside-small-box h2 {
+    color: #ffffff;
+}
+
+.ser-con-inside-box img {
+    position: absolute;
+    margin-top: 35%;
+    left: 10%;
+}
+
+.ser-con-inside-box p {
+    text-align: left;
+    margin-left: 35%;
+    margin-right: 10%;
+    margin-top: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* get 15% discount */
+
+.offer-content {
+    background-color: #3ca7db;
+    height: 50vh;
+    margin-top: 5%;
+    display: flex;
+}
+
+.offer-div1 {
+    height: 100%;
+    width: 15%;
+}
+
+.offer-div2 {
+    height: 100%;
+    width: 70%;
+    display: flex;
+}
+
+.offer-div3 {
+    height: 100%;
+    width: 15%;
+}
+
+.offer-div2-left {
+    height: 100%;
+    width: 50%;
+    color: #ffffff;
+    margin-top: 5%;
+}
+
+.offer-div2-right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    position: relative;
+}
+
+.offer-div2-right img:nth-child(1) {
+    height: 110%;
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    z-index: 3;
+}
+
+.offer-div2-right img:nth-child(2) {
+    height: 90%;
+    position: absolute;
+    left: 40%;
+    z-index: 2;
+    bottom: -4%;
+}
+
+.offer-div2-right img:nth-child(3) {
+    height: 110%;
+    position: absolute;
+    left: 60%;
+    z-index: 1;
+    bottom: 0%;
+}
+
+.offer-div2-left h1,
+.offer-div2-left p,
+.offer-div2-left button {
+    margin-top: 5%;
+    margin-right: 20%;
+}
+
+.offer-div2-left button {
+    width: 25vh;
+    height: 2rem;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #db493c;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Reviews */
+.team-content {
+    background-color: #ffffff;
+    height: 70vh;
+    position: relative;
+}
+
+.team-content h1 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+.team-div {
+    width: 100%;
+    height: 80%;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+}
+
+
+.t-div1 {
+    height: 100%;
+    width: 15%;
+}
+
+.t-div2 {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.t-div3 {
+    height: 100%;
+    width: 15%;
+}
+
+.div2-1 {
+    width: 32%;
+    height: 70%;
+    border: 1px solid #3ca7db;
+}
+
+.div2-1 img {
+    position: absolute;
+    top: -40px;
+    left: 26%;
+    transform: translateX(-50%);
+    width: 5%;
+    height: 20%;
+    border-radius: 50%;
+}
+
+.div2-1 h3 {
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.div2-1 p {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+
+.div2-2 {
+    width: 32%;
+    height: 70%;
+    border: 1px solid #3ca7db;
+}
+
+.div2-2 img {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.div2-2 h3 {
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.div2-2 p {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+.div2-3 {
+    width: 32%;
+    height: 70%;
+    border: 1px solid #3ca7db;
+}
+
+.div2-3 img {
+    position: absolute;
+    top: -40px;
+    left: 74%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.div2-3 h3 {
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.div2-3 p {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* answer and question */
+.form-content {
+    background-color: #3ca7db;
+    height: 70vh;
+    text-align: center;
+}
+
+.form-content h1 {
+    color: #ffffff;
+    padding-top: 3%;
+    margin-bottom: 3%;
+}
+
+.form-div2 {
+    height: 75%;
+    width: 100%;
+    display: flex;
+}
+
+.form-div2-1 {
+    width: 15%;
+    height: 100%;
+}
+
+.form-div2-2 {
+    width: 70%;
+    height: 80%;
+    display: flex;
+}
+
+.for-left {
+    width: 50%;
+    height: 100%;
+}
+
+.for-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#dropdown {
+    margin-top: 5%;
+    width: 90%;
+    height: 20%;
+    padding: 3%;
+
+}
+
+#dropdown2 {
+    margin-top: 5%;
+    width: 90%;
+    height: 50%;
+    padding: 3%;
+}
+
+
+.for-right {
+    width: 50%;
+    height: 100%;
+}
+
+.form-div2-3 {
+    width: 15%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* map */
+.location-content {
+    background-color: rgb(255, 255, 255);
+    height: 75vh;
+    position: relative;
+}
+
+
+.location-content iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.loc-con-div {
+    background-color: #ffffff;
+    width: 20%;
+    height: 70%;
+    z-index: 1;
+    position: relative;
+    top: 15%;
+    left: 20%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+
+
+.loc-con-div span {
+    display: flex;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.loc-con-div span img {
+    height: 0%;
+}
+
+.loc-con-div h2 {
+    padding-top: 20%;
+    padding-left: 30%;
+}
+
+.loc-con-div button {
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer {
+    background-color: #ffffff;
+    height: 18vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-content span {
+    display: flex;
+}
+
+.footer-content span img {
+    height: 8vh;
+    margin-right: 5%;
+}
+
+
+
+
+@media only screen and (max-width: 1232px) {
+    body {
+
+        .left-promotion {
+            margin-top: 1%;
+        }
+
+        .navbar {
+            padding: 2% 10% 2% 10%;
+        }
+
+        .right img:nth-child(1) {
+            left: -10%;
+        }
+
+        .right img:nth-child(2) {
+            left: 5%;
+        }
+
+        .right img:nth-child(3) {
+            left: 20%;
+        }
+
+        .ser-con-inside-box img {
+            height: 15%;
+        }
+
+
+
+        /* orient service offers the best price */
+        .first-rev-row {
+            font-size: small;
+        }
+
+        .second-rev-row {
+            font-size: small;
+        }
+
+        .box-plumber-left {
+            font-size: x-small;
+        }
+
+        .washing-left {
+            font-size: x-small;
+        }
+
+        .box8-left h3,
+        .box8-left p {
+            font-size: x-small;
+        }
+
+        .washing-right img {
+            height: 70%;
+        }
+
+        .box8-right img {
+            height: 60%;
+        }
+
+
+        .ser-con-inside-small-box {
+            position: absolute;
+            z-index: 1;
+        }
+    }
+}
